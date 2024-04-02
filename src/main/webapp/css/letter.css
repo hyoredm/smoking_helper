@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.wrap{
+    text-align: center;
+    width:500px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#header{
+    width:100%;
+    height: 60px;
+    background-color: #6f03a1;
+    color:#fff;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#sendread{
+    background-color: #ddd;
+    width:100%;
+    height: 55px;
+
+}
+.send{
+    width:50%;
+    height: 100%;
+    float:left;
+    line-height: 55px;
+    cursor: pointer;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+}
+
+
+
+.form{
+    display: none;
+    width:100%;
+    height: 300px;
+    padding:20px;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+
+#sendname{
+    display: block;
+    width:50%;
+    height: 40px;
+    margin: 0 auto;
+    outline: none;
+}
+
+#content{
+    outline: none;
+    resize: none;
+    width:100%;
+    height: 100px;
+   margin-top: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+#contentex{
+    margin-top: 30px;
+    
+}
+#message{
+    padding:5px 10px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.clicked{
+    background-color: #fff;
+}
+
+
+
+.users{
+ border: 1px solid #000;
+ border-radius: 100px;
+ font-size: 25px;
+ padding:5px;
+ float:left;
+display: inline-block;
+margin-top: 11.5px;
+margin-left: 8px;
+}
+
+.letters{
+
+    width:100%;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.iconwrap{
+    width: 10%;
+    display: inline-block;
+    height: 100%;
+    float:left;
+}
+
+.reader{
+    width:90%;
+    height: 50%;
+    float:left;
+    text-align: left;
+    padding-left: 5px;
+    line-height: 30px;
+}
+
+
+#title{
+    text-align: left;
+    padding:30px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+#date{
+    font-size: 14px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 5px;
+    color:#8f8484;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+#contentt{
+    padding:20px;
+        border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+}
+
+#deleteaction{
+         border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+}
+
+#delbtn{
+    padding:8px 12px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: #fa7c7c;
+    color:#fff;
+}
+
+.abc{
+    display: none;
+    height:430px;
+    overflow:scroll;
+}
+
+
+.show{
+    display: block;
+}
